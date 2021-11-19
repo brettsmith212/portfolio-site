@@ -11,7 +11,7 @@ html {
 
 body {
   --dark-bg: rgba(15, 15, 15, 0.95);
-  --spacing: 350px;
+  --spacing: 35rem;
   font-family: "Roboto Mono", monospace;
   line-height: 1.5;
 }
@@ -35,21 +35,6 @@ main {
   grid-template-columns: repeat(12, 1fr);
 }
 
-h1,
-h2,
-h3,
-blockquote {
-  font-family: elevon, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 header {
   background: var(--dark-bg);
   grid-column: 2 / span 5;
@@ -65,21 +50,6 @@ section {
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: var(--spacing);
-}
-
-blockquote {
-  margin: 0;
-  padding: 0;
-  grid-column: 2 / span 9;
-  margin-bottom: var(--spacing);
-}
-
-blockquote p {
-  color: black;
-  background-color: white;
-  font-size: 4rem;
-  display: inline;
-  line-height: 1;
 }
 
 .left {
